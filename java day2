@@ -1,0 +1,9 @@
+public class Main{
+    public static void main(String[] args){
+        int num_1=10;
+        double num_2=(double)num_1;
+        System.out.println(num_1);
+        System.out.println(num_2);
+    }
+    
+}
