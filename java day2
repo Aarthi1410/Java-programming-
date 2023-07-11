@@ -1,3 +1,4 @@
+1.TYPECASTING:
 public class Main{
     public static void main(String[] args){
         int num_1=10;
@@ -5,5 +6,38 @@ public class Main{
         System.out.println(num_1);
         System.out.println(num_2);
     }
+    
+}
+
+2.IF CONDITION STATEMENT:
+public class Main{
+    public static void main(String[] args){
+        int x=4;
+        int y=3;
+        if(x>y){
+            System.out.println("yes x is greater than y");
+        }
+    }
+
+3.PROGRAM TO ACCEPT N NUMBERS AND PRINT EVEN OR ODD:
+
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+        Scanner input=new Scanner(System.in);
+        System.out.println("enter a number:");
+        int number=input.nextInt();
+        if(number%2==0){
+            System.out.println("it is an even number.");
+        }else{
+            System.out.println("it is an od number.");
+        }
+        input.close();
+    }
+}
+
+
+
+
     
 }
