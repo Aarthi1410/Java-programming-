@@ -75,4 +75,22 @@ public class Main{
     }
 }
 
+6.PROGRAM TO ACCEPT N NUMBERS AND TO FIND WHETHER IT IS POSITIVE,NEGATIVE OR ZERO:
+
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+        Scanner input=new Scanner(System.in);
+        System.out.println("enter an integer:");
+        int x=input.nextInt();
+        if(x<0){
+            System.out.println("the given number is a negative number.");
+        }else if(x>0){
+            System.out.println("the given number is a  positive number.");
+        }else{
+            System.out.println("the given number is zero.");
+        }
+        input.close();
+    }
+}
 
