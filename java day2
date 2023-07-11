@@ -36,8 +36,22 @@ public class Main{
     }
 }
 
+4.PROGRAM TO ACCEPT TWO NUMBER AND TO FIND THEIR SUM IS EVEN OR ODD:
 
-
-
-    
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+        Scanner input=new Scanner(System.in);
+        System.out.println("enter  number1:");
+        int number1=input.nextInt();
+        System.out.println("enter number2: ");
+        int number2=input.nextInt();
+        int sum=(number1+number2);
+        if(sum%2==0){
+            System.out.println("it is an even number.");
+        }else{
+            System.out.println("it is an od number.");
+        }
+        input.close();
+    }
 }
