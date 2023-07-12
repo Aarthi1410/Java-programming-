@@ -189,5 +189,24 @@ public class Main{
     }       
 }
 
+11. PROGRAM TO PRINT THE REVERSE OF THE GIVEN STRING USING FOR LOOP:
+
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    System.out.println("ENTER THE NUMBER: ");
+    int num=input.nextInt();
+    int reverse=0;
+    for(;num!=0;num=num/10){ #in for loop 3 conditions has to be given.since there is no need for the 1st condition insert " ; " instead
+        int remainder=num%10;
+        reverse=reverse*10+remainder;
+        
+    }
+     System.out.println("THE REVERSE OF THE GIVEN STRING: "+reverse);
+    
+    }       
+}
+
 
 
