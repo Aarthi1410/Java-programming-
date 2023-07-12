@@ -1,1 +1,13 @@
+1.PROGRAM TO PRINT HELLO WORLD USING WHILE LOOP:
 
+public class Main{
+public class public static void main (String[] args) {
+    int i=0;
+    while(i<5){
+        System.out.println("HAVE A GOOD DAY!");
+        i++;
+    }
+    
+}
+
+2.PROGRAM TO PRINT
