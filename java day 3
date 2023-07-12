@@ -10,4 +10,25 @@ public class public static void main (String[] args) {
     
 }
 
-2.PROGRAM TO PRINT
+2.PROGRAM TO PRINT NUMBERS TO WORDS USING NESTED IF:
+
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    System.out.println("Enter nos from 1 to 5:");
+    int i=input.nextInt();
+    if(i==1){
+        System.out.println("ONE");
+    }if(i==2){
+        System.out.println("TWO");
+        
+    }if(i==3){
+        System.out.println("THREE");
+    }if(i==4){
+        System.out.println("FOUR");
+    }if(i==5){
+        System.out.println("FIVE");
+    }
+    }
+}    
