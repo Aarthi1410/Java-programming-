@@ -32,3 +32,22 @@ public class Main{
     }
     }
 }    
+
+3.PROGRAM TO CREATE EMPLOYEE DETAILS USING CLASSES AND OBJECTS:
+
+public class Emp{
+    int id=1467;
+    String name="Nirmal";
+    int salary=80000;
+    public static void main(String[] args){
+        Emp obj1=new Emp(); 
+        Emp obj2=new Emp(); 
+        Emp obj3=new Emp(); 
+        System.out.println("EMPLOYEE ID: "+obj1.id);
+        System.out.println("EMPLOYEE NAME: "+obj2.name);
+        System.out.println("EMPLOYEE SALARY: "+obj3.salary);
+        
+       
+    }
+}   
+   
