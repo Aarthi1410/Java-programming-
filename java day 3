@@ -170,6 +170,7 @@ public class Main{
     }
 }
 
+NOTE: REF https://www.javatpoint.com/how-to-reverse-a-number-in-java  TO UNDERSTAND.
 10. PROGRAM TO PRINT THE REVERSE OF THE GIVEN NUMBER:
 
 import java.util.Scanner;
