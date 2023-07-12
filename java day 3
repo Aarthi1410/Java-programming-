@@ -51,3 +51,105 @@ public class Emp{
     }
 }   
    
+4.PROGRAM TO PRINT WORDS USING FOR LOOP:
+
+public class Main{
+    public static void main(String[] args){
+        int i=5;
+        for(i=1;i<=5;i++){
+            System.out.println("way to go!good luck");
+        }
+    }
+}
+
+5.PROGRAM TO FIND SUM OF N NATURAL NUMBERS:
+
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    System.out.println("ENTER THE SUM: ");
+    int sum=input.nextInt();
+    System.out.println("ENTER THE LAST DIGIT: ");
+    int n=input.nextInt();
+    for(int i=1;i<=n;i++){
+            sum+=i;
+        }
+            System.out.println("sum: "+sum);
+        
+    }
+}
+
+6.PROGRAM TO PRINT ALL THE NUMBERS USING FOR LOOP:
+
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    System.out.println("ENTER THE ENDING NO: ");
+    int n=input.nextInt();
+    for(int i=1;i<=n;i++){
+           System.out.println("THE NUMBERS ARE:"+i); 
+        }
+            
+        
+    }
+}
+
+7.PROGRAM TO PRINT ALL THE NUMBERS USING WHILE LOOP:
+
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    System.out.println("ENTER THE ENDING NO: ");
+    int n=input.nextInt();
+    int i=1;
+    while(i<=n){
+           System.out.println("THE NUMBERS ARE:"+i); 
+           i++;
+        }
+            
+        
+    }
+}
+
+8.) A] PROGRAM TO PRINT EVEN NUMBERS USING WHILE LOOP:
+
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    System.out.println("ENTER THE ENDING NO: ");
+    int n=input.nextInt();
+    int i=0;
+    while(i<=n){
+           if(i%2==0){
+           System.out.println("THE NUMBERS ARE:"+i); 
+           }
+           i++;
+        
+    }     
+        
+    }
+}
+ 8.) B] PROGRAM TO PRINT EVEN NUMBERS USING WHILE LOOP(WITHOUT USING IF STATEMENT):
+
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    System.out.println("ENTER THE ENDING NO: ");
+    int n=input.nextInt();
+    int i=0;
+    while(i<=n){
+           
+           System.out.println("THE NUMBERS ARE:"+i); 
+           i+=2;
+        
+    }     
+        
+    }
+}
+
+
