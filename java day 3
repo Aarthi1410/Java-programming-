@@ -152,4 +152,42 @@ public class Main{
     }
 }
 
+9. PROGRAM TO PRINT EVEN NUMBERS USING FOR LOOP:
+
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    System.out.println("ENTER THE ENDING NO: ");
+    int n=input.nextInt();
+    for(int i=0;i<=n;i+=2){
+           
+           System.out.println("THE NUMBERS ARE:"+i); 
+           
+        
+    }     
+        
+    }
+}
+
+10. PROGRAM TO PRINT THE REVERSE OF THE GIVEN NUMBER:
+
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    System.out.println("ENTER THE ENDING NO: ");
+    int num=input.nextInt();
+    int reverse=0;
+    while(num!=0){
+        int remainder=num%10;
+        reverse=reverse*10+remainder;
+        num=num/10;
+    }
+     System.out.println("THE REVERSE OF THE GIVEN STRING: "+reverse);
+    
+    }       
+}
+
+
 
