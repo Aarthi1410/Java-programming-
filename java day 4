@@ -16,7 +16,7 @@ public class Main{
     }
 }
 
-2.PROGRAM TO FIND GIVEN INPUT IS PALINDROME OR NOT:
+2.PROGRAM TO FIND GIVEN NO IS PALINDROME OR NOT:
 
 import java.util.Scanner;
 public class Main{
