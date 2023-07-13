@@ -1,4 +1,4 @@
-PROGRAM TO FIND PRIME NUMBERS:
+1.PROGRAM TO FIND PRIME NUMBERS:
 
 import java.util.Scanner;
 public class Main{
@@ -15,3 +15,28 @@ public class Main{
         }System.out.println(prime);
     }
 }
+
+2.PROGRAM TO FIND GIVEN INPUT IS PALINDROME OR NOT:
+
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+    Scanner input=new Scanner(System.in);
+    System.out.println("ENTER THE NO: ");
+    int num=input.nextInt();
+    int reverse=0;
+    int temp=num;
+    while(num!=0){
+        int remainder=num%10;
+        reverse=reverse*10+remainder;
+        num=num/10;
+    }if(temp==reverse){
+     System.out.println("it is a palindrome");
+    
+    }else{
+       System.out.println("it is not a palindrome"); 
+    }       
+
+    }    
+}
+
