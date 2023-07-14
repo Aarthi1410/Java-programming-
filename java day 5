@@ -1,0 +1,12 @@
+JAVA PROGRAM USING MAETHOD:
+
+public class Main{
+    public static void main(String[]args){
+        System.out.println("Hola!");
+        saynice();
+        System.out.println("Have a nice day!");
+    }
+    public static void saynice(){
+    System.out.println("good morning!");    
+    }
+}
