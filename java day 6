@@ -1,0 +1,11 @@
+1.] public class Main{
+    public static void main(String[]args){
+        int num=1;
+        increment(num);
+        System.out.println("num is "+num);
+    }public static int increment(int num){
+        num++;
+        System.out.println("num is "+num);
+        return num;
+    }
+}
