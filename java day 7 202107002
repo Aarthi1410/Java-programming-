@@ -9,3 +9,89 @@
         return num;
     }
 }
+
+2.]TASK 1
+
+1. Generate a random number within a specified range, such as 1 to 100.
+
+2. Prompt the user to enter their guess for the generated number.
+
+3. Compare the user's guess with the generated number and provide feedback on whether the guess
+is correct, too high, or too low.
+
+4. Repeat steps 2 and 3 until the user guesses the correct number.
+
+You can incorporate additional details as follows:
+
+5. Limit the number of attempts the user has to guess the number.
+6. Add the option for multiple rounds, allowing the user to play again.
+7. Display the user's score, which can be based on the number of attempts taken or rounds won.
+
+
+PROGRAM:
+
+import java.io.*;
+import java.util.*;
+public class Main
+{
+public static void main (String[] args)
+{
+    Scanner s=new Scanner(System.in);
+    Random r = new Random();
+    int answer=r.nextInt(100);
+    System.out.println("Please enter your guess");
+    for(int i=0;i<5;i++)
+    {
+    int guess=s.nextInt();
+    if(guess<answer)
+    {System.out.println("Too low");}
+    else if(guess>answer)
+    {System.out.println("Too high");}
+    else
+    {System.out.println("YAY!!! You guessed right");}
+    }
+}
+}
+
+3.]import java.io.*;
+import java.util.*;
+public class Main
+{
+   
+public static void main (String[] args)
+{
+    Scanner s=new Scanner(System.in);
+    Random r = new Random();
+    Main m=new Main();
+    m.Guess();
+    
+    System.out.println("You lost!! Press 1 to try again \n Press 0 to exit");
+    int j=s.nextInt();
+    switch(j)
+    {
+        case 1:
+            m.Guess();
+        case 0:
+            System.out.println("Exit");
+            break;
+    }
+}
+
+public void Guess()
+{
+     Scanner s=new Scanner(System.in);
+    Random r = new Random();
+    int answer=r.nextInt(100);
+    System.out.println("Please enter your guess");
+    for(int i=0;i<5;i++)
+    {
+    int guess=s.nextInt();
+    if(guess<answer)
+    {System.out.println("Too low");}
+    else if(guess>answer)
+    {System.out.println("Too high");}
+    else
+    {System.out.println("YAY!!! You guessed right");break;}
+    }
+}
+}
